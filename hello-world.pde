@@ -1,4 +1,4 @@
-void setup()
+setup()
 {
   size(200,200);
   background(125);
@@ -8,7 +8,7 @@ void setup()
   textFont(fontA, 14);  
 }
 
-void draw(){  
+draw(){  
   text("Hello Web!",20,20);
   println("Hello ErrorLog!");
 }
